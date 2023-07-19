@@ -1,5 +1,5 @@
 {
-  "name": "pswipe",
+  "name": "pswipe-core",
   "version": "1.0.0",
   "description": "Nothing yet",
   "main": "./src/main.ts",
@@ -31,7 +31,5 @@
     "tslib": "^2.0.0",
     "typescript": "^4.3.5"
   },
-  "dependencies": {
-    "core": "./src/core"
-  }
+  "dependencies": {}
 }

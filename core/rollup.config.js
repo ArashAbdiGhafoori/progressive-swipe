@@ -8,7 +8,7 @@ export default [
     input: "./src/core/src/main.ts",
     output: {
       dir: "./out/core/",
-      format: "iife",
+      format: "es", 
     },
     plugins: [
       nodeResolve(),
@@ -19,6 +19,7 @@ export default [
         inlineSources: !production,
         noImplicitAny: true,
         compilerOptions: {
+          rootDir: "./src/core",
           outDir: "./out/core/",
         },
       }),
@@ -38,6 +39,9 @@ export default [
         sourceMap: !production,
         inlineSources: !production,
         noImplicitAny: true,
+        compilerOptions: {
+          rootDir: ".",
+        },
       }),
     ],
   },
