@@ -1,0 +1,4 @@
+out/*
+node_modules/*
+coverage/lcov-report/*
+coverage/lcov.info
